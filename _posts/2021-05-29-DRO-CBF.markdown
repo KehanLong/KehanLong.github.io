@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Safe and Stable Control Synthesis for Uncertain System Models via Distributionally Robust Optimization"
+date:   2021-05-29 22:21:59 +00:00
+image: /images/crv19.png
+categories: research
+authors: "<strong>Kehan Long</strong>, Yinzhuang Yi, Jorge Cortes, Nikolay Atanasov"
+venue: "American Control Conference"
+arxiv: https://arxiv.org/abs/2210.01341
+---
+
+A formulation for fitting Gaussian Mixture Models (GMMs) directly to geometric objects, such as a triangular mesh. This method produces more robust results and produces an improvement in 3D registration for both meshes and RGB-D frames. 
