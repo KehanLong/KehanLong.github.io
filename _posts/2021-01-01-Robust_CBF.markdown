@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning Barrier Functions with Memory for Robust Safe Navigation"
-date:   2021-01-01 
+date:   2019-05-29 22:21:59 +00:00
 image: /images/gina-motes.jpg
 categories: Research
 author: "<strong>Kehan Long</strong>, Cheng Qian, Jorge Cortes, Nikolay Atanasov"
