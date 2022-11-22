@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Safe and Stable Control Synthesis for Uncertain System Models via Distributionally Robust Optimization"
-date:   2021-05-29 22:21:59 +00:00
+date:   2022-10-29 22:21:59 +00:00
 image: /images/crv19.png
 categories: research
 authors: "<strong>Kehan Long</strong>, Yinzhuang Yi, Jorge Cortes, Nikolay Atanasov"
