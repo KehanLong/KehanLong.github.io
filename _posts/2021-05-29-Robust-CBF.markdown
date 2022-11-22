@@ -8,7 +8,6 @@ authors: "<strong>Kehan Long</strong>, Vikas Dhiman, Melvin Leok, Jorge Cortes, 
 venue: "IEEE Robotics and Automation Letters (RA-L)"
 arxiv: https://arxiv.org/abs/2202.09557
 slides: /pdfs/crv19-slides.pdf
-code: https://github.com/leonidk/direct_gmm
 ---
 
 A formulation for fitting Gaussian Mixture Models (GMMs) directly to geometric objects, such as a triangular mesh. This method produces more robust results and produces an improvement in 3D registration for both meshes and RGB-D frames. 
