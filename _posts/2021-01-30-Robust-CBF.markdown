@@ -6,7 +6,7 @@ image: /images/crv19.png
 categories: research
 authors: "<strong>Kehan Long</strong>, Cheng Qian, Jorge Cortes, Nikolay Atanasov"
 venue: "IEEE Robotics and Automation Letters (RA-L)"
-arxiv: https://arxiv.org/abs/2202.09557
+arxiv: https://arxiv.org/abs/2011.01899
 slides: /pdfs/crv19-slides.pdf
 ---
 
