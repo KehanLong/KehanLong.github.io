@@ -4,7 +4,7 @@ title:  "Safe and Stable Control Synthesis for Uncertain System Models via Distr
 date:   2022-10-29 22:21:59 +00:00
 image: /images/crv19.png
 categories: research
-authors: "<strong>Kehan Long</strong>, Yinzhuang Yi, Jorge Cortes, Nikolay Atanasov"
+authors: "<strong>Kehan Long</strong>, Yinzhuang Yi, Jorge Cort\u00E9s, Nikolay Atanasov"
 venue: "American Control Conference"
 arxiv: https://arxiv.org/abs/2210.01341
 ---
