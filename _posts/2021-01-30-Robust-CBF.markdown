@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning Barrier Functions with Memory for Robust Safe Navigation"
 date:   2021-01-30 22:21:59 +00:00
-image: /images/robust_cbf_1.PNG
+image: /images/Robust_cbf_1.PNG
 categories: research
 authors: "<strong>Kehan Long</strong>, Cheng Qian, Jorge Cortes, Nikolay Atanasov"
 venue: "IEEE Robotics and Automation Letters (RA-L)"
