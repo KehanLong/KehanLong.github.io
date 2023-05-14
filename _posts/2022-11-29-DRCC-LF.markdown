@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distributionally Robust Lyapunov Function Search Under Uncertainty"
-date:   2022-11-29 22:21:59 +00:00
+date:   2023-06-16 22:21:59 +00:00
 image: /images/DR_LF_Compare.png
 categories: research
 authors: "<strong>Kehan Long</strong>, Yinzhuang Yi, Jorge Cort\u00E9s, Nikolay Atanasov"
