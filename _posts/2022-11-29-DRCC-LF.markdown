@@ -7,6 +7,7 @@ categories: research
 authors: "<strong>Kehan Long</strong>, Yinzhuang Yi, Jorge Cort\u00E9s, Nikolay Atanasov"
 venue: "5th Learning for Dynamics & Control Conference (L4DC)"
 arxiv: https://arxiv.org/abs/2212.01554
+github: https://github.com/KehanLong/DR-Lyapunov-Function
 ---
 
 We develop distributionally robust sum-of-squares and neural network approaches for synthesizing a Lyapunov function for dynamical systems with model uncertainty.
