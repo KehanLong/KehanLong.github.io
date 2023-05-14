@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Safe Control Synthesis With Uncertain Dynamics and Constraints"
-date:   2021-05-29 22:21:59 +00:00
+date:   2022-05-29 22:21:59 +00:00
 image: /images/Robust_cbf_2.png
 categories: research
 authors: "<strong>Kehan Long</strong>, Vikas Dhiman, Melvin Leok, Jorge Cort\u00E9s, Nikolay Atanasov"
