@@ -2,7 +2,7 @@
 layout: post
 title:  "Safe and Stable Control Synthesis for Uncertain System Models via Distributionally Robust Optimization"
 date:   2023-06-01 22:21:59 +00:00
-image: /images/DRCCP_compare_1.PNG
+image: /images/DRCCP_compare1.PNG
 categories: research
 authors: "<strong>Kehan Long</strong>, Yinzhuang Yi, Jorge Cort\u00E9s, Nikolay Atanasov"
 venue: "2023 American Control Conference"
