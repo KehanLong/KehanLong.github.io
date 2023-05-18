@@ -10,4 +10,5 @@ arxiv: https://arxiv.org/abs/2212.01554
 github: https://github.com/KehanLong/DR-Lyapunov-Function
 ---
 
-We develop distributionally robust sum-of-squares and neural network approaches for synthesizing a Lyapunov function for dynamical systems with model uncertainty.
+
+This work develops methods for proving Lyapunov stability of dynamical systems subject to disturbances with an unknown distribution. We assume only a finite set of disturbance samples is available and that the true online disturbance realization may be drawn from a different distribution than the given samples. We formulate an optimization problem to search for a sum-of-squares (SOS) Lyapunov function and introduce a distributionally robust version of the Lyapunov function derivative constraint. We show that this constraint may be reformulated as several SOS constraints, ensuring that the search for a Lyapunov function remains in the class of SOS polynomial optimization problems. For general and higher dimensional systems, we provide a distributionally robust chance-constrained formulation for neural network Lyapunov function search.
