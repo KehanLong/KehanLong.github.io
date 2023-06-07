@@ -65,23 +65,6 @@
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
-           <td style="padding:1.5%;width:100%;vertical-align:middle">
-              <h2>News</h2>
-              <div id="news">
-                <p>[March 2023] Our paper on <a href="https://arxiv.org/abs/2212.01554">Distributionally Robust Lyapunov Function Search Under Uncertainty</a> has been accepted to L4DC 2023. 🎉🎉🎉</p>
-                <p>[Jan 2023] Our paper on <a href="https://arxiv.org/abs/2210.01341">Safe and Stable Control Synthesis for Uncertain System Models via Distributionally Robust Optimization</a> has been accepted to ACC'23. 🎉🎉🎉</p>
-                <p>[Nov 2022] Our paper on <a href="https://arxiv.org/abs/2212.01554">Distributionally Robust Lyapunov Function Search Under Uncertainty</a> has been submitted to L4DC 2023. 😄😄😄</p>
-                <p>[Sep 2022] Our paper on <a href="https://arxiv.org/abs/2210.01341">Safe and Stable Control Synthesis for Uncertain System Models via Distributionally Robust Optimization</a> has been submitted to ACC'23. 😄😄😄</p>
-                <p>[June 2022] Our paper on <a href="https://arxiv.org/abs/2202.09557">Safe Control Synthesis with Uncertain Dynamics and Constraints</a> has been accepted to RA-L with IROS 2022. 🎉🎉🎉</p>
-                <p>[March 2021] Our paper on <a href="https://arxiv.org/abs/2011.01899">Learning Barrier Functions with Memory for Robust Safe Navigation</a> has been accepted to RA-L with ICRA 2021. 🎉🎉🎉</p>
-              </div>
-              <button id="loadMore">Load More</button>
-            </td>
-          </tr>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
             <td style="padding:1.5%;width:100%;vertical-align:middle">
               <h2>Research Interests</h2>
               <p>
@@ -96,6 +79,23 @@
           <tr>
             <td style="padding:1.5%;width:100%;vertical-align:middle">
               <h2>Publuications</h2>
+            </td>
+          </tr>
+        </table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+           <td style="padding:1.5%;width:100%;vertical-align:middle">
+              <h2>News</h2>
+              <div id="news">
+                <p>[March 2023] Our paper on <a href="https://arxiv.org/abs/2212.01554">Distributionally Robust Lyapunov Function Search Under Uncertainty</a> has been accepted to L4DC 2023. 🎉🎉🎉</p>
+                <p>[Jan 2023] Our paper on <a href="https://arxiv.org/abs/2210.01341">Safe and Stable Control Synthesis for Uncertain System Models via Distributionally Robust Optimization</a> has been accepted to ACC'23. 🎉🎉🎉</p>
+                <p>[Nov 2022] Our paper on <a href="https://arxiv.org/abs/2212.01554">Distributionally Robust Lyapunov Function Search Under Uncertainty</a> has been submitted to L4DC 2023. 😄😄😄</p>
+                <p>[Sep 2022] Our paper on <a href="https://arxiv.org/abs/2210.01341">Safe and Stable Control Synthesis for Uncertain System Models via Distributionally Robust Optimization</a> has been submitted to ACC'23. 😄😄😄</p>
+                <p>[June 2022] Our paper on <a href="https://arxiv.org/abs/2202.09557">Safe Control Synthesis with Uncertain Dynamics and Constraints</a> has been accepted to RA-L with IROS 2022. 🎉🎉🎉</p>
+                <p>[March 2021] Our paper on <a href="https://arxiv.org/abs/2011.01899">Learning Barrier Functions with Memory for Robust Safe Navigation</a> has been accepted to RA-L with ICRA 2021. 🎉🎉🎉</p>
+              </div>
+              <button id="loadMore">Load More</button>
             </td>
           </tr>
         </table>
@@ -163,7 +163,7 @@
 <script>
   let news = document.getElementById('news').getElementsByTagName('p');
   let loadMoreButton = document.getElementById('loadMore');
-  let currentNewsIndex = 5; // Start from the 6th news item
+  let currentNewsIndex = 4; // Start from the 6th news item
 
   for (let i = 0; i < news.length; i++) {
     if (i >= currentNewsIndex) { // Only show 5 news items initially
@@ -172,7 +172,7 @@
   }
 
   loadMoreButton.addEventListener('click', () => {
-    let endNewsIndex = currentNewsIndex + 5; // Show 5 more news items
+    let endNewsIndex = currentNewsIndex + 4; // Show 5 more news items
     for (let i = currentNewsIndex; i < endNewsIndex; i++) {
       if (news[i]) { // Check if the news item exists
         news[i].style.display = 'block';
