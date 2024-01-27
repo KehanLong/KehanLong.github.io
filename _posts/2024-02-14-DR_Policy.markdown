@@ -3,7 +3,7 @@ layout: post
 title:  "Distributionally Robust Lyapunov-Stable Controller Learning for Uncertain Systems"
 date:   2024-02-14 22:21:59 +00:00
 image: /images/DR_LF_Compare.PNG
-categories: research
+categories: under preparation
 authors: "<strong>Kehan Long</strong>, Jorge Cort\u00E9s, Nikolay Atanasov"
 venue: "submitted to OJ-CYCS"
 arxiv: https://arxiv.org/abs/2212.01554
