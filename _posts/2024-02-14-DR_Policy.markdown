@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Distributionally Robust Lyapunov-Stable Controller Learning for Uncertain Systems"
+date:   2024-02-14 22:21:59 +00:00
+image: /images/DR_LF_Compare.PNG
+categories: research
+authors: "<strong>Kehan Long</strong>, Jorge Cort\u00E9s, Nikolay Atanasov"
+venue: "submitted to OJ-CYCS"
+arxiv: https://arxiv.org/abs/2212.01554
+github: https://github.com/KehanLong/DR-Lyapunov-Function
+website: https://kehanlong.github.io/template_project.html
+---
+
+This article presents novel methods for synthesizing distributionally robust Lyapunov-stable controllers and certificates for control systems under model uncertainty. A key challenge in designing stabilizing controllers with guarantees for uncertain systems is the accurate determination and adaptation to shifts in model parametric uncertainty during online deployment. Addressing this, we propose a novel distributionally robust formulation for the Lyapunov derivative constraint. Based on distributionally robust optimization, the Lyapunov derivative chance constraint is reformulated as deterministic convex constraints and integrated into a loss function for training the neural network-based controller. For the system governed by the learned controller, we show that the global asymptotic stability of its equilibrium can be certified with high confidence, even with Out-of-Distribution (OoD) model uncertainties. We demonstrate the efficacy and efficiency of our method in various control problems in simulation. 
