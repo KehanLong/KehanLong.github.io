@@ -123,18 +123,24 @@
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> 
-              {% if post.github or post.video %}
+              {% if post.github or post.video or post.website %}
               /
               {% endif %}
               {% endif %}
               {% if post.github %}
               <a href="{{post.github}}">code</a> 
-              {% if post.video %}
+              {% if post.video or post.website %}
               /
               {% endif %}
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a>
+              {% if post.website %}
+              /
+              {% endif %}
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
