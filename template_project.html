@@ -1,4 +1,3 @@
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10550309-8"></script>
 <script>
@@ -120,7 +119,7 @@
 
 <html>
   <head>
-        <title>Port-Hamiltonian Neural ODE Networks on Lie Groups For Robot Dynamics Learning and Control</title>
+        <title>Distributionally Robust Lyapunov-Stable Controller Learning for Uncertain Systems</title>
         <meta property="og:title" content="SE3HamDL" />
         <meta property="og:image" content="" />
         <meta property="og:url" content="" />
@@ -138,7 +137,7 @@ code {
   <body>
     <br>
     <center>
-    <span style="font-size:42px">Port-Hamiltonian Neural ODE Networks on Lie Groups For Robot Dynamics Learning and Control</span>
+    <span style="font-size:42px">Distributionally Robust Lyapunov-Stable Controller Learning for Uncertain Systems</span>
     
     </center>
 
@@ -147,20 +146,13 @@ code {
        <tr>
          <td align=center width=100px>
          <center>
-         <span style="font-size:20px"><a href="https://thaipduong.github.io/">Thai Duong</a></span>
+         <span style="font-size:20px"><a href="https://thaipduong.github.io/">Kehan Long</a></span>
          </center>
          </td>
 
          <td align=center width=100px>
          <center>
-         <span style="font-size:20px"><a href="https://existentialrobotics.org/">Abdullah Altawaitan
-</a></span>
-         </center>
-         </td>
-
-         <td align=center width=100px>
-         <center>
-         <span style="font-size:20px"><a href="https://existentialrobotics.org/">Jason Stanley</a></span>
+         <span style="font-size:20px"><a href="https://existentialrobotics.org/">Jorge Cortes</a></span>
          </center>
          </td>
         <td align=center width=100px>
@@ -175,7 +167,7 @@ code {
        <tr>
         <td align=center width=100px>
         <center>
-        <span style="font-size:20px">Department of Electrical and Computer Engineering <br> University of California, San Diego<br/><a href="https://www.ieee-ras.org/publications/t-ro">Under review</a>, 2023.</span>
+        <span style="font-size:20px">Contextual Robotics Institute <br> University of California, San Diego<br/><a href="https://www.ieee-ras.org/publications/t-ro">Under review</a>, 2024.</span>
         </center>
         </td>
      </tr>
@@ -203,7 +195,7 @@ code {
             
 
             <br>
-            Accurate models of robot dynamics are critical for safe and stable control and generalization to novel operational conditions. Hand-designed models, however, may be insufficiently accurate, even after careful parameter tuning. This motivates the use of machine learning techniques to approximate the robot dynamics over a training set of state-control trajectories. The dynamics of many robots are described in terms of their generalized coordinates on a matrix Lie group, e.g. on SE(3) for ground, aerial, and underwater vehicles, and generalized velocity, and satisfy conservation of energy principles. This paper proposes a (port-)Hamiltonian formulation over a Lie group of the structure of a neural ordinary differential equation (ODE) network to approximate the robot dynamics. In contrast to a black-box ODE network, our formulation guarantees energy conservation principle and Lie group's  constraints by construction and explicitly accounts for energy-dissipation effect such as friction and drag forces in the dynamics model. We develop energy shaping and damping injection control for the learned, potentially under-actuated Hamiltonian dynamics to enable a unified approach for stabilization and trajectory tracking with various robot platforms.
+            A key challenge in designing stabilizing controllers with guarantees for uncertain systems is the accurate determination and adaptation to shifts in model parametric uncertainty during online deployment. Addressing this, we propose a novel distributionally robust formulation for the Lyapunov derivative constraint. Based on distributionally robust optimization, the Lyapunov derivative chance constraint is reformulated as deterministic convex constraints and integrated into a loss function for training the neural network-based controller. For the system governed by the learned controller, we show that the global asymptotic stability of its equilibrium can be certified with high confidence, even with Out-of-Distribution (OoD) model uncertainties. We demonstrate the efficacy and efficiency of our method in various control problems in simulation. 
             <br><br>
 
       <hr>
@@ -215,7 +207,7 @@ code {
                     <!-- <a href="http://arxiv.org/pdf/1603.08511.pdf"> -->
                   <!-- <td><a href="#"><img class="layered-paper-big" style="height:175px" src="./resources/images/paper.png"/></a></td> -->
                   <td><a href="https://arxiv.org/pdf/2106.12782.pdf"><img style="height:250px" src="./resources/images/thumbnails.png"/></a></td>
-                  <td><span style="font-size:14pt">Thai Duong, Abdullah Altawaitan, Jason Stanley, Nikolay Atanasov<br><br>
+                  <td><span style="font-size:14pt">Kehan Long, Jorge Cortes, Nikolay Atanasov<br><br>
                           Port-Hamiltonian Neural ODE Networks on Lie Groups For Robot Dynamics Learning and Control<br><br>
                   Under Review, 2023.<br><br>
                       <a href="https://arxiv.org/pdf/2401.09520.pdf">[pdf]</a> &nbsp; &nbsp;
